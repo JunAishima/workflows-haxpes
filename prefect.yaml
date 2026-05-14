@@ -18,7 +18,7 @@ pull:
       directory: /repo
   - prefect.deployments.steps.git_clone:
       repository: https://github.com/nsls2/haxpes-workflows.git
-      branch: main
+      branch: code_change
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
